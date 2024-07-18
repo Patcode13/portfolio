@@ -35,23 +35,24 @@
   <!--banner-->
   <div class="block">
     <div class="banner">
-      <img src="src/img/pexels-ketut-subiyanto-min.webp" alt="ordimateur" class="banner-image" />
+      <img src="src/img/pexels-ketut-subiyanto-min.webp" alt="ordinateur portable sur table de jardin" />
       <div class="banner-content">
         <h1 class="title is-1">Bienvenue sur mon portfolio</h1>
-        <h2 class="subtitle">Découvrez mes travaux et mon univers</h2>
-        <button class="button is-black" id="open-modal">Galerie Photos</button>
+        <h2 class="subtitle is-3">Découvrez mes travaux et mon univers</h2>
+        <!-- <button class="button is-black" id="open-modal">Galerie Photos</button> -->
       </div>
     </div>
   </div>
 
   <!--modal-->
   <div class="modal own-modal" id="modal-to-open">
-    
+
     <div class="modal-background"><canvas id="c"></canvas></div>
     <div class="modal-content">
-      
+
       <button class="delete is-large" aria-label="close" id="close-modal"></button>
-      <swiper-container class="mySwiper"  space-between="20" loop="true" autoplay="true" navigation="true" pagination-clickable="true" pagination="true" effect="fade">
+      <swiper-container class="mySwiper" space-between="20" loop="true" navigation="true" pagination-clickable="true"
+        pagination="true">
         <swiper-slide>
           <img src="src/caroussel/a-min.jpg" alt="" />
         </swiper-slide>
@@ -71,15 +72,15 @@
         <swiper-slide>
           <img src="src/caroussel/f-min.jpg" alt="" />
         </swiper-slide>
-    
+
       </swiper-container>
-    
+
     </div>
   </div>
 
   <!--about-->
-  <div class="block">
-    <h2 class="subtitle heading-site" id="apropos">A propos</h2>
+  <div class="block" id="apropos">
+    <h2 class="subtitle heading-site" >A propos</h2>
     <div class="container about">
       <div class="columns">
         <div class="column about-single-element">
@@ -120,8 +121,8 @@
   </div>
 
   <!--portfolio-->
-  <div class="block">
-    <h2 class="subtitle heading-site" id="portfolio">Mon portfolio</h2>
+  <div class="block" id="portfolio">
+    <h2 class="subtitle heading-site" >Mon portfolio</h2>
     <div class="container">
       <div class="tile is-ancestor">
         <div class="tile is-4 is-vertical is-parent">
@@ -207,22 +208,22 @@
       </div>
     </div>
     <div>
-      <div class="resaux-sociaux">
-        <a href="#" aria-label="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+      <div class="resaux-sociaux" id="resaux-sociaux">
+        <a href="https://www.linkedin.com/in/patrick-florent-024a7229b/" aria-label="linkedin"><i class="fa-brands fa-linkedin"></i></a>
         <a href="#" aria-label="facebook"><i class="fa-brands fa-facebook"></i></a>
         <a href="#" aria-label="instagram"><i class="fa-brands fa-instagram"></i></a>
-        <a href="#" aria-label="tiktok"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="https://github.com/patlevel13" aria-label="github"><i class="fa-brands fa-github"></i></a>
       </div>
     </div>
   </div>
-  
+
 
   <!---->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/js/all.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   <script src="src/js/main.js"></script>
-  
+
 </body>
 
 </html>
